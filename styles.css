@@ -1,5 +1,7 @@
 :root{
-    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo: black;
+    --cor-de-cabeçalho: rgb(71, 71, 71);
+    --cor-de-texto-principal: white;
 }
 
 body{
@@ -7,5 +9,6 @@ body{
 }
 
 h1{
-    background-color: white;
+    background-color: var(--cor-de-cabeçalho);
+    color: var(--cor-de-texto-principal);
 }
