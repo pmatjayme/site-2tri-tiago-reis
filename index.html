@@ -3,6 +3,9 @@
     <head>
         <meta charset=”UTF-8”>
         <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
         <title>
             Ranking Khan Academy        
         </title>
@@ -16,13 +19,23 @@
         </h1>
         <header class="cabeçalho">
             <div class="container">
-            <span class="cabeçalho_menu" > </span>
-            <img src="img/Logo.svg" alt="Logo do Khan">
+                <input type="checkbox" id="Menu" class="container_botao">
+                <label for="Menu">
+            <span class="cabeçalho_menu container_imagem"> </span>
+                </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu-titulo"> Categorias </li>
+                        <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> História </li>
+                        <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Números </li>
+                        <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Conteúdos </li>
+                        <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Aprendizômetro </li>
+                        <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Melhores Alunos </li>
+                    </ul>
+            <img src="img/Logo.jpg" alt="Logo do Khan">
             </div>
             <div class="container">
-            <a href="#"> <img src="img/Menu.svg" alt="Opções Disponíveis"> </a>
-            <a href="#"> <img src="img/Usuário.svg" alt="Meu Perfil"> </a>
-            <a href="#"> <img src="img/Favoritos.svg" alt="Minhas Turmas"> </a>
+            <a href="#"> <img src="img/Usuário.svg" alt="Meu Perfil" class="container_imagem"> </a>
+            <a href="#"> <img src="img/Favoritos.svg" alt="Minhas Turmas" class="container_imagem"> </a>
             </div>
         </header>
     </body>

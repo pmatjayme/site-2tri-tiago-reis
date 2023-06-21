@@ -4,10 +4,17 @@
     --cor-de-fundo: black;
     --cor-de-cabeçalho: rgb(71, 71, 71);
     --cor-de-texto-principal: white;
+    --cor-menu: #16c398;
+    --cor-menu-itens: orange;
+    --fonte-principal: "Poppins";
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1{
