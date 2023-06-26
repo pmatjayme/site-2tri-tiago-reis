@@ -11,6 +11,7 @@
         </title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <link rel="icon" type="image/png" href="https://yt3.googleusercontent.com/ytc/AGIKgqM7qSg3Yrn9i8-r3ANuQy6EWaF6BRpUYXJpbt2rqg=s900-c-k-c0x00ffffff-no-rj"/>
     </head>
     <body>
@@ -43,5 +44,36 @@
             <p class="banner-texto"> Plataforma online GRATUITA que possui muitos exercícios que irão contribuir na sua aprendizagem. Intuitiva e simples, a plataforma primeiro aprende sobre você para depois te ensinar.</p>
             <input type="search" class="banner-pesquisa" placeholder="O que mais deseja saber?">
         </section>
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">
+                Cursos Disponíveis
+            </h2>
+            <div class="swiper"><!-- Início Slider main container -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper"><!-- Início Slides-->
+            <div class="swiper-slide"><img src="img/1.svg" alt="Matemática Ensino Fundamental"></div>
+            <div class="swiper-slide"><img src="img/2.svg" alt="Matemática Ensino Médio"></div>
+            <div class="swiper-slide"><img src="img/3.svg" alt="Matemática Prepare-se"></div>
+            <div class="swiper-slide"><img src="img/4.svg" alt="Ciências Ensino Fundamental"></div>
+            <div class="swiper-slide"><img src="img/5.svg" alt="Português Prepare-se"></div>
+            <div class="swiper-slide"><img src="img/6.svg" alt="Computação Prepare-se"></div>
+            <div class="swiper-slide"><img src="img/7.svg" alt="Khan Academy Educadores"></div>
+            <div class="swiper-slide"><img src="img/8.svg" alt="Cursos Paraná"></div>
+            </div><!--Fim Slides -->
+            </div><!-- Fim Slider main container -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>         
+        </section>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+          });
+        </script>
     </body>
 </html>
