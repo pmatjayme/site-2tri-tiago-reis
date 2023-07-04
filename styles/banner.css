@@ -2,7 +2,7 @@
     background-color: var(--cor-de-fundo);
     color: var(--cor-de-texto-principal);
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 2.5em 0;
 }
 
 .banner-titulo{
@@ -15,6 +15,7 @@
 .banner-texto{
     font-weight: 500;
     margin: 1em 0;
+    padding: 0 1em;
 }
 
 .banner-pesquisa{
