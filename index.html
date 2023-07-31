@@ -11,6 +11,7 @@
         </title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="https://yt3.googleusercontent.com/ytc/AGIKgqM7qSg3Yrn9i8-r3ANuQy6EWaF6BRpUYXJpbt2rqg=s900-c-k-c0x00ffffff-no-rj"/>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -34,10 +35,28 @@
                         <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Melhores Alunos </li>
                     </ul>
             <img src="img/Logo.jpg" alt="Logo do Khan">
+            <h1 class="container-titulo">Saiba<b class="container-titulo--negrito">Mais</b></h1>
             </div>
+
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                <label for="opções-menu" class="opções__rotulo">
+                    <li class="opções__item"> Categorias </li>
+                </label>
+    
+                <ul class="lista-menu">
+                    <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> História </a> </li>
+                    <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Números </a> </li>
+                    <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Conteúdos </a> </li>
+                    <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Aprendizômetro </a> </li>
+                    <li class="lista-menu-item"> <a href="#" class="lista-menu-item-link"> Melhores Alunos </a> </li>
+                </ul>
+
+            </ul>
+
             <div class="container">
             <a href="#"> <img src="img/Usuário.svg" alt="Meu Perfil" class="container_imagem"> </a>
-            <a href="#"> <img src="img/Favoritos.svg" alt="Minhas Turmas" class="container_imagem"> </a>
+            <a href="#"> <img src="img/Favoritos.svg" alt="Minhas Turmas" class="container_imagem_transparente"> </a>
             </div>
         </header>
 
@@ -70,8 +89,8 @@
             <div class="card">
                 <div class="card-descricao">
                     <div class="descricao">
-                        <h3 class="descricao-titulo"> Curso Mais Usado </h3>
-                        <h2 class="descricao-texto"> Qual o curso mais usado pelos professores do Paraná </h2>
+                        <h3 class="descricao-titulo"> Curso Mais Acessado </h3>
+                        <h2 class="descricao-texto"> Qual o curso mais acessado pelos professores do Paraná </h2>
                     </div>
                     <img src="img/8.png" class="descricao-imagem">
                 </div>
@@ -103,15 +122,44 @@
         </section>
 
         <section class="contato">
-            <h2 class="contato-titulo"> Deixe seu cadastro conosco! </h2>
-            <p class="contato-texto"> Escreva seu e-mail e contactaremos você. </p>
+            <div class="contato-descricao">
+                <h2 class="contato-titulo"> Deixe seu cadastro conosco! </h2>
+                <p class="contato-texto"> Escreva seu e-mail e contactaremos você. </p>
+            </div>
             <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
         </section>
 
         <hr />
 
         <footer class="rodape"> 
-            <h2 class="rodape-titulo"> by Tiago Reis </h2>
+            <ul class="lista-rodape">
+                <li class="lista-rodape-titulo">
+                    Site Oficial
+                </li>
+                <li class="lista-rodape-item">
+                    <img src="img/clique.png" alt="Link Khan Academy">
+                    <a href="https://pt.khanacademy.org/" class="lista-rodape-link"> Acesse </a>
+                </li>
+            </ul>
+            <ul class="lista-rodape">
+                <li class="lista-rodape-titulo">
+                    Última Atualização
+                </li>
+                <li class="lista-rodape-item">
+                    <img src="img/relogio.png" alt="Ícone Relógio">
+                    <a href="https://www.horariodebrasilia.org/" class="lista-rodape-link"> 30/07/2023 </a>
+                </li>
+            </ul>
+            <ul class="lista-rodape">
+                <li class="lista-rodape-titulo">
+                    Desenvolvedor
+                </li>
+                <li class="lista-rodape-item">
+                    <img src="img/eu.JPG" alt="Foto Pessoal">
+                    <a href="http://lattes.cnpq.br/8078240296539717" class="lista-rodape-link"> Tiago Martins dos Reis </a>
+                </li>
+            </ul>
+
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

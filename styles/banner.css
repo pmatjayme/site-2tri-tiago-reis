@@ -35,5 +35,19 @@
     text-align: center;
     color: var(--cor-de-texto-principal);
     background: url("../img/Lupa.png") no-repeat;
-    background-position: 25em;
+    background-position: 18em;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner-titulo{
+        font-size: 36px;
+    }
+
+    .banner-pesquisa{
+        width: 60%;
+    }
+
+    .banner-pesquisa::placeholder{
+        background-position: 12em;
+    }
 }

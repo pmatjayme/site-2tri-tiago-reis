@@ -13,6 +13,7 @@
     --cor-menu-itens: orange;
     --fonte-principal: "Poppins";
     font-family: 'Poppins', sans-serif;
+    --fonte-secundaria: "Josefin Sans";
 }
 
 body{

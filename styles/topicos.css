@@ -31,3 +31,13 @@
 .topicos-itens{
     margin: 2em 2em;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos-titulos{
+        font-size: 24px;
+    }
+
+    .topicos-link{
+        font-size: 20px;
+    }
+}
