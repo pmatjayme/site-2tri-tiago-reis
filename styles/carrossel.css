@@ -98,3 +98,33 @@
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel-container{
+        display: flex;
+        margin: 2em 5vw 2em 5vw;
+        align-items: center;
+    }
+
+    .swiper, .swiper-pagination{
+    background-color: var(--cor-de-texto-principal);
+    border-radius: 20px;
+    margin: 2em 0;
+    }
+
+    .descricao-titulo{
+        font-size: 40px;
+    }
+
+    .descricao-texto{
+        font-size: 30px;
+    }
+
+    .card{
+        margin-left: 3em;
+    }
+
+    .botoes-ancora{
+        padding: 0.5em 8em;
+    }
+}
