@@ -1,4 +1,4 @@
-.carrossel-titulo{
+.carrossel-titulo {
     color: var(--cor-menu);
     background-color: var(--cor-de-cabeçalho);
     text-align: center;
@@ -7,45 +7,45 @@
     padding: 1em 0 0.5em 0;
 }
 
-.swiper-slide img{
+.swiper-slide img {
     width: 100%;
     border-radius: 10px;
 }
 
-.swiper-button-prev, 
-.swiper-button-next{
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
-.swiper-pagination{
+.swiper-pagination {
     position: initial;
     background-color: var(--cor-de-cabeçalho);
     margin: 0em 0 2em 0;
 }
 
-.swiper{
+.swiper {
     background-color: var(--cor-de-cabeçalho);
 }
 
-.carrossel{
+.carrossel {
     padding: 2.5em 0;
 }
 
-.card-descricao{
+.card-descricao {
     display: flex;
     justify-content: space-evenly;
 }
 
-.card-botoes{
+.card-botoes {
     display: flex;
     justify-content: space-evenly;
 }
 
-.botoes{
+.botoes {
     display: flex;
 }
 
-.card{
+.card {
     background: var(--cor-de-texto-principal);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -53,27 +53,27 @@
     padding: 1em;
 }
 
-.descricao-titulo{
+.descricao-titulo {
     color: var(--cor-menu-itens);
     font-weight: 700;
     font-size: 20px;
     margin: 0.5em 0;
 }
 
-.descricao-texto{
+.descricao-texto {
     font-size: 16px;
     font-weight: 700;
 }
 
-.descricao-imagem{
+.descricao-imagem {
     border-radius: 20px;
 }
 
-.botoes-itens{
+.botoes-itens {
     margin: 0 30em 0 0;
 }
 
-.botoes-ancora{
+.botoes-ancora {
     margin: 0.5em 0 0 -5.5em;
     background-color: var(--cor-menu);
     padding: 1em 6.5em;
@@ -84,15 +84,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .carrossel-titulo{
+    .carrossel-titulo {
         font-size: 26px;
     }
 
-    .swiper-pagination{
+    .swiper-pagination {
         margin: 0em 0 3em 0;
     }
 
-    .card{
+    .card {
         width: 80%;
         margin: 1em auto;
     }
@@ -100,31 +100,32 @@
 }
 
 @media screen and (min-width: 1728px) {
-    .carrossel-container{
+    .carrossel-container {
         display: flex;
         margin: 2em 5vw 2em 5vw;
         align-items: center;
     }
 
-    .swiper, .swiper-pagination{
-    background-color: var(--cor-de-texto-principal);
-    border-radius: 20px;
-    margin: 2em 0;
+    .swiper,
+    .swiper-pagination {
+        background-color: var(--cor-de-texto-principal);
+        border-radius: 20px;
+        margin: 2em 0;
     }
 
-    .descricao-titulo{
+    .descricao-titulo {
         font-size: 40px;
     }
 
-    .descricao-texto{
+    .descricao-texto {
         font-size: 30px;
     }
 
-    .card{
+    .card {
         margin-left: 3em;
     }
 
-    .botoes-ancora{
+    .botoes-ancora {
         padding: 0.5em 8em;
     }
 }
